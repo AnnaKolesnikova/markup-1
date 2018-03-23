@@ -1,12 +1,14 @@
-@font-face {
-    font-family: 'Lato', 'Yeseva One';
-    src: url("/fonts/Lato/Lato-Light.ttf") format("ttf"),
-         url("/fonts/Yeseva_One/YesevaOne-Regular.ttf") format("ttf");
-   }
-
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Yeseva One', sans-serif;
-    background-color: grey;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    color: white;
+    background-color: aqua
 }
