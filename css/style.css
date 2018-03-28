@@ -1,64 +1,260 @@
 body {
+    min-width: 1040px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    color: #404040;
+    background-color: white;
+}
+
+.container {
+    width: 1200px; /*1020px*/
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-header {
+    min-height: 700px;
+    padding-top: 35px;
+    background-image: url("../img/food-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.page-header,
+.page-footer {
+    color: #c3c3c3;
+    /* background-color: #363636; */
+}
+
+.header-top {
+    margin-bottom: 125px;
+}
+
+.header-logo {
+    float: left;
+    width: 155px;
+    height: 55px;
+}
+
+.header-logo img {
+    width: 155px; /*205px*/
+    height: 55px;
+}
+
+.main-nav {
+    float: left;
+    width: 625px; /*520px*/
+    margin: 0;
+    margin-top: 18px;
+    margin-left: 170px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav li {
+    float: left;
+    margin-right: 30px;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+
+.main-nav a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.main-nav a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.social-nav {
+    float: left;
+    width: 130px; /*520px*/
+    margin: 0;
+    margin-top: 18px;
+    padding: 0;
+    list-style: none;
+}
+.social-nav i {
+    padding: 0 10px;
+    color: #dab33e;
+}
+
+/* .btn {
+    display: inline-block;
+    width: 146px;
+    padding: 10px;
+    font: inherit;
+    vertical-align: top;
+    text-align: center;
+    color: #a38b70;
+    text-transform: uppercase;
+    text-decoration: none;
+    word-wrap: break-word;
+    border: 2px solid #a38b70;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    color: #8d745a;
+    border-color: #8d745a;
+}
+
+.btn:active {
+    color: rgba(141, 116, 90, 0.3);
+    border-color: #8d745a;
+}
+
+.btn-quick-order {
+    float: right;
+    margin-top: 6px;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-quick-order:hover {
+    color: #404040;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-quick-order:active {
+    color: rgba(64, 64, 64, 0.3);
+    background-color: #ffffff;
+    border-color: #ffffff;
+} */
+
+.promo {
+    font-weight: bold;
+    font-size: 90px;
+    letter-spacing: 0.1vw;
+    line-height: 115px;
+    font-family: 'Yeseva One', sans-serif;
+    text-align: center;
+}
+
+.promo a {
+    color: rgba(255,255,255,084);
+    text-decoration: none;
+}
+
+/* body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Yeseva One', cursive;
     font-family: 'Helvetica Neue', sans-serif;
-}
-
+} */
+/*
 h1 {
     font-family: 'Yeseva One', cursive;
-    text-transform: uppercase;
     color: #ffffff;
     opacity: 0.9;
 }
 
 .page-header {
+    border: 3px solid yellow;
     min-height: 800px;
-    padding-top: 35px;
     background-image: url("../../../projects/markup-1/img/food-bg-1.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
-.header-top {
+.header-navbar {
     border: 2px solid red;
-    width: 200px;
+    display: inline-block;
+    width: 100vw;
+    height: 120px;
+    z-index: 9;
 }
 
-.page-header,
-.page-footer {
-    background-color: #363636;
-    color: #c3c3c3;
+.header-logo {
+    border: 2px solid brown;
+    float: left;
+    width: 200px;
+    height: inherit;
+}
+
+.header-nav {
+    border: 2px solid blue;
+    width: 80vw;
+    height: inherit;
 }
 
 .main-nav {
-    float: rigth;
-    width: 800px;
-    margin-top: 0;
-    margin-left: 125px;
+    border: 2px solid orange;
+    float: left;
+    width: 60vw;
+    height: inherit;
     padding: 0;
     list-style: none;
   }
 
-  .main-nav li {
-      float: left;
-      position: relative;
-      display: block;
-  }
+.main-nav li {
+    border: 2px solid purple;
+    float: left;
+    position: relative;
+    height: inherit;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
 
-  .main-nav > li > a {
+.main-nav li a {
+    border: 2px solid black;
     color: #ffffff;
     text-decoration: none;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    line-height: 24px;
-  }
+    /* padding-top: 48px;
+    padding-bottom: 48px; */
+    /* line-height: 24px; */
+/*}*/
+
+/* .social-nav {
+    border: 2px solid greenyellow;
+    height: inherit;
+    width: 5vw;
+} */
+
+
+/* .promo {
+    border: 2px solid white;
+    height: 50vh;
+}
+
+.promo h1 {
+    border: 2px solid pink;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 8vh;
+    font-size: 7.5vh;
+    text-align: center;
+    letter-spacing: 0.1vw;
+    margin-top: 10vh;
+} */
 
 .about {
-    min-height: 490px;
-    padding-top: 35px;
+    /* min-height: 490px;
+    padding-top: 35px; */
     background-image: url("../../../projects/markup-1/img/bg-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
