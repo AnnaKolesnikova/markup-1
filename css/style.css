@@ -19,12 +19,13 @@ body {
     content: "";
     display: table;
     clear: both;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .page-header {
+    top: 0;
     min-height: 700px;
-    padding-top: 35px;
+    /* padding-top: 15px; */
     background-image: url("../img/food-bg-1.jpg");
     background-repeat: no-repeat;
     background-position: top;
@@ -55,8 +56,9 @@ body {
 .main-nav {
     float: left;
     width: 625px; /*520px*/
+    /* height: 120px; */
     margin: 0;
-    margin-top: 18px;
+    /* margin-top: 18px;s  */
     margin-left: 170px;
     padding: 0;
     list-style: none;
@@ -64,7 +66,10 @@ body {
 
 .main-nav li {
     float: left;
+    line-height: 90px;
+    width: fit-content;
     margin-right: 30px;
+    text-align: center;
 }
 
 .main-nav li:last-child {
@@ -80,8 +85,17 @@ body {
 }
 
 .main-nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
+/* .main-nav a:hover:before {
+    content: ' ';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #dab33e;
+    margin: 0 auto;
+} */
+
 
 .main-nav a:active {
     color: rgba(255, 255, 255, 0.3);
@@ -100,11 +114,20 @@ body {
     color: #dab33e;
 }
 
-/* .btn {
+.decor-white {
+    height: 4vh;
+}
+
+.button-container {
+    width: 100vw;
+}
+
+.btn {
     display: inline-block;
-    width: 146px;
-    padding: 10px;
-    font: inherit;
+    width: 200px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
     vertical-align: top;
     text-align: center;
     color: #a38b70;
@@ -132,6 +155,10 @@ body {
     color: #ffffff;
 }
 
+.btn-quick-order:first-child {
+    margin-right: 2vw;
+}
+
 .btn-quick-order:hover {
     color: #404040;
     background-color: #ffffff;
@@ -142,7 +169,7 @@ body {
     color: rgba(64, 64, 64, 0.3);
     background-color: #ffffff;
     border-color: #ffffff;
-} */
+}
 
 .promo {
     font-weight: bold;
@@ -158,107 +185,52 @@ body {
     text-decoration: none;
 }
 
-/* body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Yeseva One', cursive;
-    font-family: 'Helvetica Neue', sans-serif;
-} */
-/*
-h1 {
-    font-family: 'Yeseva One', cursive;
-    color: #ffffff;
-    opacity: 0.9;
+.description {
+    float: left;
+    width: 250px;
 }
 
-.page-header {
-    border: 3px solid yellow;
-    min-height: 800px;
-    background-image: url("../../../projects/markup-1/img/food-bg-1.jpg");
+.about {
+    background-image: url("../../../projects/markup-1/img/bg-1.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
 
-.header-navbar {
-    border: 2px solid red;
-    display: inline-block;
-    width: 100vw;
-    height: 120px;
-    z-index: 9;
-}
-
-.header-logo {
-    border: 2px solid brown;
-    float: left;
-    width: 200px;
-    height: inherit;
-}
-
-.header-nav {
-    border: 2px solid blue;
-    width: 80vw;
-    height: inherit;
-}
-
-.main-nav {
-    border: 2px solid orange;
-    float: left;
-    width: 60vw;
-    height: inherit;
-    padding: 0;
-    list-style: none;
-  }
-
-.main-nav li {
-    border: 2px solid purple;
-    float: left;
-    position: relative;
-    height: inherit;
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-.main-nav li a {
-    border: 2px solid black;
+.ingredients {
     color: #ffffff;
-    text-decoration: none;
-    /* padding-top: 48px;
-    padding-bottom: 48px; */
-    /* line-height: 24px; */
-/*}*/
-
-/* .social-nav {
-    border: 2px solid greenyellow;
-    height: inherit;
-    width: 5vw;
-} */
-
-
-/* .promo {
-    border: 2px solid white;
-    height: 50vh;
+    height: 600px;
+    background-image: url("../../../projects/markup-1/img/food-bg-2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 
-.promo h1 {
-    border: 2px solid pink;
-    text-decoration: none;
-    color: #ffffff;
-    line-height: 8vh;
-    font-size: 7.5vh;
-    text-align: center;
-    letter-spacing: 0.1vw;
-    margin-top: 10vh;
-} */
+.price-table {
+    height: 1200px;
+    background-image: url("../../../projects/markup-1/img/bg-4.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
 
-.about {
-    /* min-height: 490px;
-    padding-top: 35px; */
+.menu-text:first-child {
+    float: left;
+}
+
+.guests-reviews {
+    height: 600px;
+    background-image: url("../../../projects/markup-1/img/food-bg-3.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.contact-form {
+    height: 600px;
     background-image: url("../../../projects/markup-1/img/bg-1.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
