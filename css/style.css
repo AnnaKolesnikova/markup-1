@@ -10,7 +10,7 @@ body {
     background-color: white;
 }
 
-.container {
+.footer-wrapper {
     width: 1200px; /*1020px*/
     margin: 0 auto;
 }
@@ -19,6 +19,7 @@ body {
     content: "";
     display: table;
     clear: both;
+    margin: 0 auto;
 }
 
 .page-header {
@@ -259,4 +260,144 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/*//////////////////////////////////////////////*/
+
+.page-footer {
+    margin-bottom: 0;
+    height: 320px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    /* box-sizing: border-box; */
+    background-color: #191919;
+    color: #fefefe;
+}
+
+.footer-top {
+    margin-bottom: 45px;
+}
+
+.footer-middle {
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer-menu {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.footer-menu h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Georgia", serif;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    margin-bottom: 15px;
+}
+
+.footer-menu a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+
+}
+
+.footer-menu a:active {
+
+}
+
+.footer-bottom {
+    padding-top: 50px;
+}
+
+.footer-social {
+    float: left;
+    width: 490px;
+    font-size: 0;
+}
+
+.footer-social b {
+    margin-right: 40px;
+    font-size: 24px;
+    font-family: "Georgia", serif;
+
+}
+
+.social-btn {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #ffffff;
+    background-image: url("img/sprite.png");
+    background-repeat: no-repeat;
+}
+
+.social-btn:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.social-btn:active {
+    border-color: #ffffff;
+    opacity: 0.1;
+}
+
+.social-btn-vk {
+    background-position: 16px -238px;
+}
+
+.social-btn-fb {
+    background-position: 19px -297px;
+}
+
+.social-btn-in {
+    background-position: 13px -358px;
+}
+
+.footer-copyright {
+    margin-top: 17px;
+    float: right;
+    width: 236px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer-copyright .heart {
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+    font-size: 0;
+    vertical-align: middle;
+    background-image: url('img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -5px -419px;
+}
+
+.footer-copyright a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright a:active {
+    color: rgba(255, 255, 255, 0.3);
 }
