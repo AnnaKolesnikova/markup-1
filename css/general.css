@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    min-height: 75vh;
+    background-image: url("../img/food-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: #c3c3c3;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    padding: 0 35px;
+    line-height: 100px;
+}
+
+.logo a {
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigator {
+    line-height: 100px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+}
+
+.navigator-wrapper {
+    margin: 0 auto 10vh;
+    height: 100px;
+}
+
+nav {
+    float: left;
+    max-width: 60vw;
+    padding-left: 20vw;
+}
+
+nav a {
+    font-family: "Gentium Basic", "Arial", sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    line-height: 100px;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/*SOCIAL ICONS IN HEADER*/
+.social {
+    float: left;
+    max-width: 15vw;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.social i {
+    padding: 0 10px;
+    color: #dab33e;
+}
+
+/*MAIN HEADING*/
+.promo-heading {
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.1vw;
+    clear: both;
+}
+
+.promo-heading h1 {
+    margin-bottom: 1vh;
+    color: rgba(255, 255, 255, 0.84);
+    text-decoration: none;
+}
+
+.promo-heading {
+    margin: 0 auto;
+    max-width: 70rem;
+}
+
+/*FIGURE DECOR HEADER*/
+.figure-header {
+    margin: 0 auto;
+    max-width: 18vw;
+    height: 4vh;
+}
+
+/*BUTTONS HEADER*/
+.button-container {
+    margin: 0 auto;
+    max-width: 27vw;
+    height: 6vh;
+}
+
+.button {
+    float: left;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    border: 2px solid #ffffff;
+    min-width: 9vw;
+    padding: 15px;
+}
+
+.button:first-child {
+    margin-right: 1vw;
+}
+
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    word-wrap: break-word;
+    color: #ffffff;
+}
+
+/* .btn-quick-order:hover {
+    color: #404040;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-quick-order:active {
+    color: rgba(64, 64, 64, 0.3);
+    background-color: #ffffff;
+    border-color: #ffffff;
+} */
+
+/*SECTION FOOTER*/
+.page-footer {
+    margin-bottom: 0;
+    height: 320px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #191919;
+    color: #c3c3c3;
+}
+
+.footer-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    margin-bottom: 45px;
+}
+
+.footer-middle {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer-menu {
+    float: left;
+    width: 500px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.footer-menu h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Georgia", serif;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    margin-bottom: 15px;
+}
+
+.footer-menu a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding-top: 50px;
+}
+
+.footer-social {
+    float: left;
+    width: 490px;
+    font-size: 0;
+}
+
+.footer-social b {
+    margin-right: 40px;
+    font-size: 24px;
+    font-family: "Georgia", serif;
+
+}
+
+.social-btn {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #ffffff;
+    background-image: url("img/sprite.png");
+    background-repeat: no-repeat;
+}
+
+.social-btn:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.social-btn:active {
+    border-color: #ffffff;
+    opacity: 0.1;
+}
+
+.social-btn-vk {
+    background-position: 16px -238px;
+}
+
+.social-btn-fb {
+    background-position: 19px -297px;
+}
+
+.social-btn-in {
+    background-position: 13px -358px;
+}
+
+.footer-copyright {
+    margin-top: 17px;
+    float: right;
+    width: 236px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer-copyright .heart {
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+    font-size: 0;
+    vertical-align: middle;
+    background-image: url('img/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -5px -419px;
+}
+
+.footer-copyright a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.sidebar-social-icons {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.sidebar-social-icons > ul > li {
+    padding: 10px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}

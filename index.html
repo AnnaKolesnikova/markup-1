@@ -5,54 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <link rel="shortcut icon" href="img/logo_top.png">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Lato|Yeseva+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>Restaurant Lambda</title>
 </head>
 
 <body>
-    <div class="page-header">
-        <div class="header-top">
-            <div class="header-logo">
-                <img src="img/logo.png" alt="LAMBDA" width="205" height="55">
+    <header class="header">
+        <div class="container navigator">
+            <div class="logo">
+                <a href="index.html">Lambda</a>
             </div>
-            <ul class="main-nav">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Ingredients</a>
-                </li>
-                <li>
-                    <a href="#">Menu</a>
-                </li>
-                <li>
-                    <a href="#">Reviews</a>
-                </li>
-                <li>
-                    <a href="#">Reservations</a>
-                </li>
-            </ul>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-youtube"></i>
-            <i class="fa fa-facebook"></i>
+            <div class="navigator-wrapper">
+                <nav>
+                    <a href="#" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#ingredients">Ingredients</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#reservations">Reservations</a>
+                </nav>
+                <div class="social">
+                    <a href="https://twitter.com">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://youtube.com">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://facebook.com">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="promo">
-            <a href="#">the right ingredients
-                <br> for the right food</a>
+        <div class="container">
+            <div class="promo-heading">
+                <h1>the right ingredients for the right food</h1>
+            </div>
+        </div>
+        <div class="figure figure-white figure-header">
+            <img src="img/decor-2-big-white.png" alt="white-decor">
         </div>
         <div class="options">
-            <a class="btn" href="#">book a table</a>
-            <a class="btn" href="#">set the menu</a>
+            <div class="button-container">
+                <div class="button"><a class="btn btn-book" href="#">book a table</a></div>
+                <div class="button"><a class="btn btn-menu" href="#">set the menu</a></div>
+            </div>
         </div>
-    </div>
+    </header>
 
     <section class="section">
         <div class="about">
@@ -492,7 +499,7 @@
                             </p>
                         </div>
                         <div class="sidebar-social">
-                            <div class="sidebar-social-icons">
+                            <div>
                                 <ul class="social-icons">
                                     <li>
                                         <a href="#">

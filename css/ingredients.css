@@ -1,0 +1,27 @@
+/*SECTION FINE INGREDIENTS*/
+.ingredients {
+  color: #ffffff;
+  height: 600px;
+  background-image: url("../../../projects/markup-1/img/food-bg-2.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.ingredients p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.panel {
+  padding-top: 9vh;
+}
+
+.black-panel {
+  width: 420px;
+  margin-top: 0;
+  margin-left: 48vw;
+  padding: calc(1vw + 1vh);
+  text-align: center;
+  vertical-align: middle;
+}
