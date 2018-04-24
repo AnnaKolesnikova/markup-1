@@ -1,4 +1,14 @@
 /*JUST THE RIGHT FOOD*/
+
+.about {
+  background: url("../img/bg-1.jpg") no-repeat 100% 0%;
+}
+
+.about-wrapper {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
 .description {
   float: left;
   width: 250px;
@@ -6,11 +16,4 @@
 .description p {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-}
-
-.about {
-  background-image: url("../../../projects/markup-1/img/bg-1.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
 }

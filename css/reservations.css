@@ -1,36 +1,28 @@
 /*SECTION PRICING TABLES*/
-.pricing-table {
-  height: 1200px;
-  background-image: url("../../../projects/markup-1/img/bg-4.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+.reservation-wrapper {
+  width: 100vw;
+  height: 700px;
+  background: url("../../../projects/markup-1/img/bg-1.jpg") no-repeat 100%;
 }
 
-.menu-text:first-child {
+.images-container img {
+  margin-left: 5vw;
+  padding-top: 8vh;
+}
+
+.food-image {
   float: left;
-}
-
-.guests-reviews {
-  height: 600px;
-  background-image: url("../../../projects/markup-1/img/food-bg-3.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
 }
 
 .contact-form {
-  height: 600px;
-  background-image: url("../../../projects/markup-1/img/bg-1.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+  padding-top: 8vh;
+  margin-left: 55vw;
+  max-width: 30vw;
+}
+.contact-form img {
+  margin-left: 6vw;
 }
 
-
-.figure-image {
-  float: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 20px;
+.form-header h1 {
+  text-align: center;
 }

@@ -2,7 +2,7 @@
 .ingredients {
   color: #ffffff;
   height: 600px;
-  background-image: url("../../../projects/markup-1/img/food-bg-2.jpg");
+  background-image: url("../img/food-bg-2.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -11,6 +11,7 @@
 .ingredients p {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
+  line-height: 2.5vh;
 }
 
 .panel {
@@ -18,10 +19,17 @@
 }
 
 .black-panel {
-  width: 420px;
+  max-width: 30vw;
   margin-top: 0;
   margin-left: 48vw;
   padding: calc(1vw + 1vh);
   text-align: center;
   vertical-align: middle;
+  background-color:rgba(0, 0, 0, 0.69);
+}
+
+.ingredients .figure-image {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
 }
