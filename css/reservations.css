@@ -19,6 +19,10 @@
   margin-left: 55vw;
   max-width: 30vw;
 }
+
+.contact-form h1 {
+  color: #dab33e;
+}
 .contact-form img {
   margin-left: 6vw;
 }

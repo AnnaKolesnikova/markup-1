@@ -4,6 +4,10 @@
   background: url("../img/bg-1.jpg") no-repeat 100% 0%;
 }
 
+.about h2 {
+  color: #dab33e;
+}
+
 .about-wrapper {
   margin: 0 auto;
   max-width: 1100px;
